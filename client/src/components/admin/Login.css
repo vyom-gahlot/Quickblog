@@ -1,0 +1,115 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.admin-span{
+    color: #5044e5;
+}
+
+.login-heading{
+    font-size: 1.875rem; 
+    line-height: 2.25rem; 
+    font-weight: 700;
+}
+
+.login-subheading{
+    font-weight: 300;
+}
+
+.login-text{
+    width: 100%; 
+
+    padding-top: 1.5rem; 
+    padding-bottom: 1.5rem; 
+
+    text-align: center;
+}
+
+.login-card{
+    width: 100%;                 
+    max-width: 20rem;            
+
+    padding: 1.5rem;            
+
+    border: 1px solid rgba(80, 68, 229, 0.15); 
+
+    border-radius: 0.5rem;      
+
+  
+    box-shadow: 0 20px 25px -5px rgba(80, 68, 229, 0.15),
+              0 10px 10px -5px rgba(80, 68, 229, 0.10);
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    margin: 1.5rem;           
+  }
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login-input{
+    margin-bottom: 1.5rem; 
+
+    border-bottom-width: 2px; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+    border-color: rgb(229,231,235); 
+    padding: 0.5rem; 
+
+    outline: 2px solid transparent; 
+    outline-offset: 2px;
+}
+
+.login-formdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-login-button{
+    /* width: 100%; */
+
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+
+    font-weight: 500;
+
+    background-color: #5044e5;
+    color: white;
+
+    border-radius: 5px;
+    border: 0px;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.admin-login-button:hover{
+    background-color: rgba(68, 80, 229, 0.9);
+}
+
+.login-form{
+    margin-top: 1.5rem;
+    width: 100%;
+
+    color: rgb(75,85,99);
+}
+
+@media ( min-width: 640px) {
+    .login-form{
+        max-width: 28rem;
+    }
+    
+}

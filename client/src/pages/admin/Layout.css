@@ -1,0 +1,55 @@
+.layout-logo{
+    cursor: pointer;
+    width: 8rem;
+}
+
+@media (min-width: 640px) {
+    .layout-logo{
+        width: 10rem;
+    }
+}
+
+.logout-button{
+    padding: 10px 40px;
+    border-radius: 9999px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    background: #5044e5;
+    color: white;
+}
+
+.admin-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    height: 70px;
+
+    border-bottom-width: 1px; 
+    border-color: rgb(229,231,235);
+}
+
+@media (min-width: 640px) {
+    .admin-navbar{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
+
+.sidebar-container{
+    height: calc(100vh - 70px);
+    display: flex;
+}
