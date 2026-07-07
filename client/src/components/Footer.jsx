@@ -26,7 +26,7 @@ const Footer = () => {
               ))}
             </div>
         </div>
-        <p className='credits'>© 2026 QuickBlog • Built by Vyom • <a  className='contact-links' href="https://github.com/vyom-gahlot" target='_blank' rel="noopener noreferrer">GitHub</a></p>
+        <p className='credits'>© 2026 QuickBlog • Built by <a className='contact-links' target='_blank' href="https://portfolio-sandy-alpha-bks6lgnnzk.vercel.app/" rel="noopener noreferrer">Vyom</a> • <a  className='contact-links' href="https://github.com/vyom-gahlot" target='_blank' rel="noopener noreferrer">GitHub</a></p>
     </div>
   )
 }
