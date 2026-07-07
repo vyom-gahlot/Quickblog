@@ -84,13 +84,13 @@ Backend:
 Frontend (.env):
 
 ```
-VITE_BASE_URL=http://localhost:5000
+VITE_BASE_URL=http://localhost:3000
 ```
 
 Backend (.env):
 
 ```
-PORT=5000
+PORT=3000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
@@ -102,8 +102,8 @@ JWT_SECRET=your_secret_key
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/blogsite.git
-cd blogsite
+git clone https://github.com/vyom-gahlot/Quickblog
+cd Quickblog
 ```
 
 Install and run the frontend:
